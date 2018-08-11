@@ -1,0 +1,16 @@
+[
+{
+  "modid": "worldscale",
+  "name": "WorldScale",
+  "description": "Immersive land claims for pvp gameplay",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BordListian"],
+  "credits": "Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

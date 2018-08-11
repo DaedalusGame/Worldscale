@@ -1,0 +1,81 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "worldscale:blocks/lattice",
+      "0": "worldscale:blocks/lattice",
+	  "1": "worldscale:blocks/lattice_inner"
+    },
+	"model": "worldscale:empty",
+	"transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+	  "inventory": [{ "model": "worldscale:cage" }],
+    "down": {
+		"true": { 
+			"submodel": {
+				"walld": {
+					"model": "worldscale:cage_part",
+					"x": 90 
+				}
+			}
+		},
+		"false": { }
+    },
+    "east": {
+		"true": { 
+			"submodel": {
+				"walle": {
+					"model": "worldscale:cage_part",
+					"y": 90 
+				}
+			}
+		},
+		"false": { }
+    },
+    "north": {
+		"true": { 
+			"submodel": {
+				"walln": {
+					"model": "worldscale:cage_part"
+				} 
+			}
+		},
+		"false": { }
+    },
+    "south": {
+		"true": { 
+			"submodel": {
+				"walls": {
+					"model": "worldscale:cage_part",
+					"y": 180 
+				}
+			}
+		},
+		"false": { }
+    },
+    "up": {
+		"true": {
+			"submodel": {
+				"wallu": {
+					"model": "worldscale:cage_part",
+					"x": 270 
+				}
+			}
+		},
+		"false": { }
+    },
+    "west": {
+		"true": { 
+			"submodel": {
+				"wallw": {
+					"model": "worldscale:cage_part",
+					"y": 270 
+				}
+			}
+		},
+		"false": { }
+    }
+  }
+}

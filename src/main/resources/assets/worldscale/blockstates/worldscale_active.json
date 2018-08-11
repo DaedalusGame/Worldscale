@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+	"model": "cube_bottom_top",
+    "textures": {
+        "bottom": "worldscale:blocks/worldscale_bottom",
+        "top": "worldscale:blocks/worldscale_active_top",
+        "side": "worldscale:blocks/worldscale_side"
+    },
+	"transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
